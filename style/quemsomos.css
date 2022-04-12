@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+@media (min-width: 1024px) {
+
+    /* Section 1 */
+
+    .aboutaza {
+        height: 90vh;
+        max-width: 800px;
+    
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .aboutazatitle {
+        color: var(--color1);
+        text-align: center;
+        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
+        text-indent: 25px;
+    }
+
+    .aboutazatxt {
+        color: var(--color1);
+        text-align: justify;
+        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
+        text-indent: 35px;
+    }
+
+    .cards {
+        flex-shrink: 0;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .telhadinho {
+        width: 0; 
+        height: 0; 
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-bottom: 100px solid var(--color5);
+      }
+
+    .card {
+        height: 188px;
+        padding: 8px 16px;
+        text-align: center;
+        background: var(--color3) url('/img/ZZZ.png') no-repeat;
+        background-size: contain;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card > p {
+        font-size: 120%;
+        color: var(--color4);
+        text-shadow: none;
+    }
+
+    .card > h3 {
+        margin-bottom: 8px;
+    }
+
+    .aboutaza h2 {
+        margin-bottom: 24px;
+    }
+
+    .aboutcontent {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    header {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+
+
+
+
+
+    /* Section 2 */
+    .description-owner > img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
