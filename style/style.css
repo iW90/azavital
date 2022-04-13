@@ -258,7 +258,6 @@ a {
     nav {
         background: url(../img/cobogo2.png) repeat;
         background-size: stretch;
-
         box-shadow: 0px 1px 1px rgba(241, 90, 37, 0.3);
         text-transform: uppercase;
         font-size: 1rem;
