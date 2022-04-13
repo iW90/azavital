@@ -95,12 +95,44 @@
 
 
     /* Section 2 */
+    .aboutowner {
+        height: 90vh;
+        max-width: 800px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
     .description-owner > img {
-        width: 80px;
-        height: 80px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
     }
 
+    .description-owner {
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .ownertxt {
+        text-align: justify;
+        text-indent: 35px;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
