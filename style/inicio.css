@@ -1,6 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
+h1 {
+    color: var(--color3);
+    font-family: var(--fontTitle);
+    font-size: 7rem;
+    text-align: center;
+    margin: 0px -160px 0px -160px;
+    text-shadow: 4px 4px 0px hsla(0, 0%, 0%, 1);
+}
+
 @media (min-width: 1024px) {
 
     /* Header Início */
