@@ -24,7 +24,7 @@ body {
 
     /* Header Início */
     header {
-        background: url('./img/bg01.jpg') no-repeat fixed;
+        background: url('/./img/bg01.jpg') no-repeat fixed;
         background-size: cover;
         width: 100%;
         min-height: 100vh;
