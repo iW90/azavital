@@ -44,6 +44,10 @@
     --fontTitle: Nova;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* background: linear-gradient(180deg, var(--color3) 0%, var(--color5) 50%) fixed; */
     font-family: Arial, Helvetica, sans-serif;
@@ -118,6 +122,7 @@ body {
     }
 
     nav, ul {
+        letter-spacing: 2px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -134,7 +139,7 @@ body {
 
     .inativo {
         color: var(--color4);
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     .inativo:hover > .outline {
