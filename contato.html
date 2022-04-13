@@ -26,12 +26,17 @@
 <body>
 
     <nav>
-        <img class="logo" src="./img/logo.png" alt="Logo">
-        <ul class="navbar">
+        <div class="navtop">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+            </a>
+        </div>
+        <ul id="navbar">
             <li><a class="inativo" href="./index.html" alt="Início"><span class="outline">Iníci</span>o</a></li>
             <li><a class="inativo" href="./quemsomos.html" alt="Quem somos"><span class="outline">Quem</span> somos</a></li>
             <li><a class="inativo" href="./servicos.html" alt="Serviços"><span class="outline">Serv</span>iços</a></li>
-            <li><a class="ativo" href="./contato.html" alt="Contato"><span class="outline">Cont</span>atos</a></li>
+            <li><a class="ativo" href="./contato.html" alt="Contato"><span class="outline">Cont</span>ato</a></li>
         </ul>
     </nav>
     <div class="space"></div>
@@ -56,7 +61,8 @@
             <p class="indent">Habitat para a Humanidade</p>
         </div>
         <div class="contatos">
-            <a href="#">AZA VITAL STUDIO | www.azavital.com.br</a>
+            <a class="foot-web" href="#">AZA VITAL STUDIO | www.azavital.com.br</a>
+            <a class="foot-mobile" href="#">AZA VITAL STUDIO<br>www.azavital.com.br</a>
             <div class="social-buttons">
                 <a href="https://www.instagram.com/azavital.arqsocial/" target="_blank"><img class="social-button" src="./img/05_insta.png" alt="instagram"></a>
                 <a href="https://www.facebook.com/Azavitalstudio" target="_blank"><img class="social-button" src="./img/04_face.png" alt="facebook"></a>
@@ -71,6 +77,6 @@
             <p class="indent"><a href="">Flaticon</a></p>
         </div>
     </footer>
-
+    <script src="./scripts/nav.js" defer></script>
 </body>
 </html>
