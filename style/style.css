@@ -74,15 +74,6 @@ a {
         padding: 64px;
     }
 
-    h1 {
-        color: var(--color3);
-        font-family: var(--fontTitle);
-        font-size: 7rem;
-        text-align: center;
-        margin: 0px -160px 0px -160px;
-        text-shadow: 4px 4px 0px hsla(0, 0%, 0%, 1);
-    }
-
     h2 {
         color: var(--color3);
         font-family: var(--font1);
@@ -267,8 +258,9 @@ a {
 
     /* Menu */
     nav {
-        background: var(--color1) url(../img/cobogo.png) repeat;
-        background-size: contain;
+        background: url(../img/cobogo2.png) repeat;
+        background-size: stretch;
+
         box-shadow: 0px 1px 1px rgba(241, 90, 37, 0.3);
         text-transform: uppercase;
         font-size: 1rem;
