@@ -8,9 +8,8 @@
     /* Section 1 */
 
     .aboutaza {
-        height: 90%;
+        height: 100%;
         max-width: 800px;
-        margin-top: 2%;
     
         display: flex;
         flex-direction: column;
@@ -65,10 +64,6 @@
         color: var(--color2);
     }
 
-    .card > h3 {
-        margin-bottom: 8px;
-    }
-
     .aboutaza h2 {
         margin-bottom: 24px;
     }
@@ -94,7 +89,7 @@
 
     /* Section 2 */
     .aboutowner {
-        height: 90%;
+        height: 100%;
         max-width: 800px;
 
         display: flex;

@@ -64,6 +64,7 @@ body {
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
+        padding: 64px;
     }
 
     h1 {
