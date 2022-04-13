@@ -90,5 +90,10 @@
 }
 
 @media (max-width: 767px) {
-
+    header {
+        background: url('../img/bg.jpg') no-repeat fixed;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
 }
