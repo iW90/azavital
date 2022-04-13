@@ -207,7 +207,6 @@ a {
     .indent {
         text-indent: 20px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -254,7 +253,6 @@ a {
     .creditos > p {
         font-size: 1rem;
     }
-
 
     /* Menu */
     nav {
