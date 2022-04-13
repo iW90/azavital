@@ -42,7 +42,7 @@ body {
         justify-content: center;
         align-items: center;
 
-        background: rgba(0, 0, 0, 0.8) url('/img/ZZZ.png') no-repeat;
+        background: rgba(0, 0, 0, 0.8) url('../img/ZZZ.png') no-repeat;
         background-size: contain;
         box-sizing: border-box;
         width: 35%;
@@ -72,7 +72,7 @@ body {
     }
 
     .divider {
-        background: url(/img/divider5.png) repeat-x;
+        background: url(../img/divider5.png) repeat-x;
         background-position-y: bottom;
         height: 80px;
         width: 100vw;
@@ -83,7 +83,7 @@ body {
     main {
         height: 80vh;
         padding: 20px;
-        background: transparent url(/img/pattern4.png) repeat;
+        background: transparent url(../img/pattern4.png) repeat;
         background-size: stretch;
         background-position: top;
     }

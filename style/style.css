@@ -30,7 +30,7 @@ body {
         align-items: center;
         gap: 5%;
 
-        background: transparent url(/img/pattern4.png) repeat;
+        background: transparent url(../img/pattern4.png) repeat;
         background-size: stretch;
         background-position: top;
     }

@@ -51,7 +51,7 @@
         height: 188px;
         padding: 8px 16px;
         text-align: center;
-        background: var(--color3) url('/img/ZZZ.png') no-repeat;
+        background: var(--color3) url('../img/ZZZ.png') no-repeat;
         background-size: contain;
         border-radius: 15px;
         box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
