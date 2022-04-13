@@ -3,13 +3,15 @@
 
 @media (min-width: 1024px) {
 
+    
+
     /* Section 1 */
 
     .aboutaza {
-        height: 90vh;
+        height: 90%;
         max-width: 800px;
+        margin-top: 2%;
     
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -18,16 +20,12 @@
     }
 
     .aboutazatitle {
-        color: var(--color1);
         text-align: center;
-        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
         text-indent: 25px;
     }
 
     .aboutazatxt {
-        color: var(--color1);
         text-align: justify;
-        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
         text-indent: 35px;
     }
 
@@ -36,7 +34,7 @@
         width: 280px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 16px;
     }
 
     .telhadinho {
@@ -44,14 +42,14 @@
         height: 0; 
         border-left: 140px solid transparent;
         border-right: 140px solid transparent;
-        border-bottom: 100px solid var(--color5);
+        border-bottom: 100px solid var(--color3);
       }
 
     .card {
         height: 188px;
         padding: 8px 16px;
         text-align: center;
-        background: var(--color3) url('../img/ZZZ.png') no-repeat;
+        background: var(--color5);
         background-size: contain;
         border-radius: 15px;
         box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
@@ -64,8 +62,7 @@
 
     .card > p {
         font-size: 120%;
-        color: var(--color4);
-        text-shadow: none;
+        color: var(--color2);
     }
 
     .card > h3 {
@@ -84,6 +81,7 @@
 
     header {
         width: 800px;
+        margin-bottom: 8px;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -96,7 +94,7 @@
 
     /* Section 2 */
     .aboutowner {
-        height: 90vh;
+        height: 90%;
         max-width: 800px;
 
         display: flex;
