@@ -25,11 +25,12 @@
 }
 
 .passos-card > div, .passos-card > div:hover {
-    height: 100px;
+    height: 120px;
     margin: 16px 24px 24px 24px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 150ms;
 }
 
 .passos-img1 {
