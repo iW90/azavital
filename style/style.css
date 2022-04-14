@@ -216,16 +216,7 @@ a {
 @media (max-width: 767px) {
 
     main {
-        padding: 0px 24px;
-    }
-
-    h1 {
-        color: var(--color3);
-        font-family: var(--fontTitle);
-        font-size: 7rem;
-        text-align: center;
-        margin: 0px -160px 0px -160px;
-        text-shadow: 4px 4px 0px hsla(0, 0%, 0%, 1);
+        padding: 24px;
     }
 
     h2 {
