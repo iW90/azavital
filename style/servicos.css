@@ -363,6 +363,19 @@
     #carousel {
         width: 100%;  
     }
+
+    .afterbefore {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .afterbefore p {
+        text-indent: 0;
+        margin: 36px 0px 16px 0px;
+        font-size: 1.2rem;
+    }
       
     #items {
         display: flex;
