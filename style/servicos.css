@@ -91,6 +91,87 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    /* Passo a Passo */
+    .passos-container {
+        width: 100%;
+        margin: 32px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px
+    }
+
+    .passos-card {
+        width: 25%;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+        background: var(--color1);
+        box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .passos-card > p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .passos-card > div, .passos-card > div:hover {
+        height: 120px;
+        margin: 16px 24px 24px 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 150ms;
+    }
+
+    .passos-img1 {
+        background-image: url(../img/01-registro.png);
+    }
+
+    .passos-img1:hover {
+        background: url(../img/01-registro.gif);
+    }
+
+    .passos-img2 {
+        background: url(../img/02-contato.png);
+    }
+
+    .passos-img2:hover {
+        background: url(../img/02-contato.gif);
+    }
+
+    .passos-img3 {
+        background: url(../img/03-destino.png);
+    }
+
+    .passos-img3:hover {
+        background: url(../img/03-destino.gif);
+    }
+
+    .passos-img4 {
+        background: url(../img/04-compras.png);
+    }
+
+    .passos-img4:hover {
+        background: url(../img/04-compras.gif);
+    }
+
+    .passos-img5 {
+        background: url(../img/05-pagamento.png);
+    }
+
+    .passos-img5:hover {
+        background: url(../img/05-pagamento.gif);
+    }
+
+    .passos-img6 {
+        background: url(../img/06-obra.png);
+    }
+
+    .passos-img6:hover {
+        background: url(../img/06-obra.gif);
+    }
 }
 
 @media (max-width: 767px) {

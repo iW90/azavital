@@ -52,10 +52,7 @@
     .card > p {
         font-size: 120%;
         color: var(--color2);
-    }
-
-    .aboutaza h2 {
-        margin-bottom: 24px;
+        text-indent: 0;
     }
 
     .aboutcontent {
@@ -69,7 +66,7 @@
         margin-bottom: 8px;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
     }
 
     /* Section 2 */
@@ -117,6 +114,114 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    /* Section 1 */
+    .aboutaza {
+        height: 100%;
+        width: 736px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .aboutazatxt {
+        text-align: justify;
+    }
+
+    .cards {
+        flex-shrink: 0;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .telhadinho {
+        width: 0; 
+        height: 0; 
+        border-left: 120px solid transparent;
+        border-right: 120px solid transparent;
+        border-bottom: 100px solid var(--color3);
+    }
+
+    .card {
+        min-height: 188px;
+        padding: 16px;
+        text-align: center;
+        background: var(--color5);
+        background-size: contain;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card > p {
+        font-size: 120%;
+        color: var(--color2);
+        text-indent: 0;
+    }
+
+    .aboutcontent {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    header {
+        width: 100%;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Section 2 */
+    .aboutowner {
+        height: 100%;
+        width: 736px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .description-owner > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .description-owner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .ownertitle {
+        align-self: flex-end;
+    }
+
+    .ownertxt {
+        text-align: justify;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -155,6 +260,7 @@
     .card > p {
         font-size: 120%;
         color: var(--color2);
+        text-indent: 0;
     }
 
     /* Section 2 */
