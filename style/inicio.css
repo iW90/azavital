@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 h1 {
     color: var(--color3);
@@ -91,7 +90,6 @@ h1 {
         height: 344px;
     
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -99,6 +97,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
+
     /* Header Início */
     h1 {
         line-height: 80px;

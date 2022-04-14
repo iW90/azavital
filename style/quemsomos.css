@@ -1,12 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 @media (min-width: 1024px) {
 
-    
-
     /* Section 1 */
-
     .aboutaza {
         height: 100%;
         max-width: 800px;
@@ -161,33 +157,33 @@
         color: var(--color2);
     }
 
-        /* Section 2 */
-        .aboutowner {
-            max-width: 100%;
-        }
-    
-        .description-owner > img {
-            width: 200px;
-            height: 200px;
-            border-radius: 10%;
-            margin-bottom: 16px;
-        }
-    
-        .description-owner {
-            width: 100%;
-            text-align: center;
-        }
-    
-        .ownertxt {
-            text-align: justify;
-        }
-    
-        .revista > img {
-            width: 50%;
-        }
-    
-        .revista {
-            display: flex;
-            gap: 8px;
-        }
+    /* Section 2 */
+    .aboutowner {
+        max-width: 100%;
+    }
+
+    .description-owner > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        margin-bottom: 16px;
+    }
+
+    .description-owner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ownertxt {
+        text-align: justify;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }

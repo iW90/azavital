@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media (min-width: 1024px) {
 
     /* Passo a Passo */
@@ -85,11 +84,19 @@
     .passos-img6:hover {
         background: url(../img/06-obra.gif);
     }
+
+    /* Projetos Anteriores */
+
+    /* Kits de Serviços */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
 }
 
 @media (max-width: 767px) {
-    /* Passo a Passo */
 
+    /* Passo a Passo */
     .passos-container {
         width: 100%;
         display: flex;

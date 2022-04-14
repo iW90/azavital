@@ -49,7 +49,6 @@ html {
 }
 
 body {
-    /* background: linear-gradient(180deg, var(--color3) 0%, var(--color5) 50%) fixed; */
     font-family: 'Century Gothic';
     color: var(--color4);
     width: auto;
@@ -139,7 +138,6 @@ section {
 
     .inativo {
         color: var(--color4);
-        /* font-weight: bold; */
     }
 
     .inativo:hover > .outline {
