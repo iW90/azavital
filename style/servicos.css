@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+.register {
+    color: var(--color3);
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.register:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 1024px) {
 
     /* Passo a Passo */
