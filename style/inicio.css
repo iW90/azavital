@@ -74,7 +74,7 @@ h1 {
     /* Main Início */
     main {
         height: 80vh;
-        padding: 20px;
+        padding: 24px;
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
@@ -84,12 +84,11 @@ h1 {
         max-width: 600px;
         text-align: justify;
         font-size: 1.4rem;
-        text-indent: 25px;
     }
 
     .embed {
         width: 600px;
-        height: 340px;
+        height: 344px;
     
     }
 
@@ -163,7 +162,6 @@ h1 {
 
     .description {
         text-align: justify;
-        text-indent: 35px;
     }
 
     .embed {

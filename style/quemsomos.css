@@ -129,7 +129,7 @@
     .aboutaza {
         min-height: auto;
         max-width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 56px;
     }
 
     .aboutazatxt {
@@ -161,11 +161,6 @@
         color: var(--color2);
     }
 
-    .aboutaza h2 {
-        margin-bottom: 24px;
-        
-    }
-
         /* Section 2 */
         .aboutowner {
             max-width: 100%;
@@ -185,7 +180,6 @@
     
         .ownertxt {
             text-align: justify;
-            text-indent: 35px;
         }
     
         .revista > img {
