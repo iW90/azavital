@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 h1 {
     color: var(--color3);
@@ -74,7 +73,7 @@ h1 {
     /* Main Início */
     main {
         height: 80vh;
-        padding: 20px;
+        padding: 24px;
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
@@ -84,15 +83,13 @@ h1 {
         max-width: 600px;
         text-align: justify;
         font-size: 1.4rem;
-        text-indent: 25px;
     }
 
     .embed {
         width: 600px;
-        height: 340px;
+        height: 344px;
     
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -100,6 +97,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
+
     /* Header Início */
     h1 {
         line-height: 80px;
@@ -163,7 +161,6 @@ h1 {
 
     .description {
         text-align: justify;
-        text-indent: 35px;
     }
 
     .embed {

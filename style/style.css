@@ -49,7 +49,6 @@ html {
 }
 
 body {
-    /* background: linear-gradient(180deg, var(--color3) 0%, var(--color5) 50%) fixed; */
     font-family: 'Century Gothic';
     color: var(--color4);
     width: auto;
@@ -59,6 +58,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding-top: 64px;
+}
+
 @media (min-width: 1024px) {
 
     main {
@@ -66,12 +69,11 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 80px;
 
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
-        padding: 64px;
+        padding: 0px 64px 64px 64px;
     }
 
     h2 {
@@ -79,6 +81,7 @@ a {
         font-family: var(--font1);
         font-size: 1.8rem;
         font-weight: bold;
+        text-indent: 36px;
     }
 
     h3 {
@@ -93,6 +96,7 @@ a {
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
+        text-indent: 36px;
     }
 
     a {
@@ -134,7 +138,6 @@ a {
 
     .inativo {
         color: var(--color4);
-        /* font-weight: bold; */
     }
 
     .inativo:hover > .outline {
@@ -187,7 +190,7 @@ a {
     }
 
     .social-button {
-        width: 25px;
+        width: 24px;
     }
 
     .social-buttons {
@@ -205,7 +208,7 @@ a {
     }
 
     .indent {
-        text-indent: 20px;
+        text-indent: 24px;
     }
 }
 
@@ -216,7 +219,7 @@ a {
 @media (max-width: 767px) {
 
     main {
-        padding: 24px;
+        padding: 0px 24px 64px 24px;
     }
 
     h2 {
@@ -224,7 +227,8 @@ a {
         font-family: var(--font1);
         font-size: 1.8rem;
         font-weight: bold;
-        margin: 24px 0px;
+        margin-bottom: 24px;
+        text-indent: 36px;
     }
 
     h3 {
@@ -239,6 +243,7 @@ a {
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
+        text-indent: 36px;
     }
 
     .creditos > p {
@@ -338,9 +343,5 @@ a {
 
     .creditos, .parceiros {
         display: none;
-    }
-
-    .indent {
-        text-indent: 20px;
     }
 }
