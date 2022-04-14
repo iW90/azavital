@@ -79,6 +79,7 @@ a {
         font-family: var(--font1);
         font-size: 1.8rem;
         font-weight: bold;
+        text-indent: 36px;
     }
 
     h3 {
@@ -93,6 +94,7 @@ a {
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
+        text-indent: 36px;
     }
 
     a {
@@ -225,6 +227,7 @@ a {
         font-size: 1.8rem;
         font-weight: bold;
         margin: 24px 0px;
+        text-indent: 36px;
     }
 
     h3 {
@@ -239,6 +242,7 @@ a {
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
+        text-indent: 36px;
     }
 
     .creditos > p {

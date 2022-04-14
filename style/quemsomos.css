@@ -18,14 +18,8 @@
         gap: 8px;
     }
 
-    .aboutazatitle {
-        text-align: center;
-        text-indent: 25px;
-    }
-
     .aboutazatxt {
         text-align: justify;
-        text-indent: 35px;
     }
 
     .cards {
@@ -82,11 +76,6 @@
         align-items: flex-end;
     }
 
-
-
-
-
-
     /* Section 2 */
     .aboutowner {
         height: 100%;
@@ -118,7 +107,6 @@
 
     .ownertxt {
         text-align: justify;
-        text-indent: 35px;
     }
 
     .revista > img {
@@ -137,4 +125,75 @@
 
 @media (max-width: 767px) {
 
+    /* Section 1 */
+    .aboutaza {
+        min-height: auto;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .aboutazatxt {
+        text-align: justify;
+    }
+
+    .telhadinho {
+        display: none;
+      }
+
+    .card {
+        height: 120px;
+        padding: 8px 16px;
+        margin: 16px 0px;
+        text-align: center;
+        background: var(--color5);
+        background-size: contain;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card > p {
+        font-size: 120%;
+        color: var(--color2);
+    }
+
+    .aboutaza h2 {
+        margin-bottom: 24px;
+        
+    }
+
+        /* Section 2 */
+        .aboutowner {
+            max-width: 100%;
+        }
+    
+        .description-owner > img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10%;
+            margin-bottom: 16px;
+        }
+    
+        .description-owner {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .ownertxt {
+            text-align: justify;
+            text-indent: 35px;
+        }
+    
+        .revista > img {
+            width: 50%;
+        }
+    
+        .revista {
+            display: flex;
+            gap: 8px;
+        }
 }
