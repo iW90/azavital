@@ -73,7 +73,7 @@ section {
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
-        padding: 0px 64px 64px 64px;
+        padding: 0px 48px 64px 48px;
     }
 
     h2 {
@@ -223,7 +223,7 @@ section {
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
-        padding: 0px 64px 64px 64px;
+        padding: 0px 24px 64px 24px;
     }
 
     h2 {
