@@ -1,30 +1,22 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
-/* Base */
-:root {
-    font-size: 16px;
-    --color1: #fff;
-    --color2: #000;
-    --color3: #FFC000;
-    --color4: #1D0404;
-    --color5: #fe230b;
-    --font1: 'Arial';
-    --fontTitle: 'Shadows Into Light Two';
-}
-
-body {
-    background: linear-gradient(180deg, var(--color3) 0%, var(--color5) 50%) fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--color1);
-    width: auto;
+h1 {
+    color: var(--color3);
+    font-family: var(--fontTitle);
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 4px 4px 0px hsla(0, 0%, 0%, 1);
 }
 
 @media (min-width: 1024px) {
 
     /* Header Início */
+    h1 {
+        margin: 0px -160px 0px -160px;
+    }
+
     header {
-        background: url('/img/bg01.jpg') no-repeat fixed;
+        background: url('../img/bg.jpg') no-repeat fixed;
         background-size: cover;
         width: 100%;
         min-height: 100vh;
@@ -42,8 +34,7 @@ body {
         justify-content: center;
         align-items: center;
 
-        background: rgba(0, 0, 0, 0.8) url('/img/ZZZ.png') no-repeat;
-        background-size: contain;
+        background: rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
         width: 35%;
         height: auto;
@@ -72,7 +63,7 @@ body {
     }
 
     .divider {
-        background: url(/img/divider5.png) repeat-x;
+        background: transparent url(../img/divider.png) repeat-x;
         background-position-y: bottom;
         height: 80px;
         width: 100vw;
@@ -82,34 +73,186 @@ body {
     /* Main Início */
     main {
         height: 80vh;
-        padding: 20px;
-        background: transparent url(/img/pattern4.png) repeat;
+        padding: 24px;
+        background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
     }
 
     .description {
-        flex-shrink: 1;
         max-width: 600px;
         text-align: justify;
-        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
         font-size: 1.4rem;
-        text-indent: 25px;
-        color: var(--color1);
     }
 
     .embed {
         width: 600px;
-        height: 340px;
-    
+        height: 344px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    /* Header Início */
+    h1 {
+        margin: 0px -160px 0px -160px;
+    }
+
+    header {
+        background: url('../img/bg.jpg') no-repeat fixed;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .bg-h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        width: 75%;
+        height: auto;
+        border-radius: 25px;
+        margin: 0 8%;
+        padding: 4%;
+        box-shadow: 0px 2px 4px 2px hsla(0, 0%, 0%, 0.4);
+    }
+
+    .quote, .autora {
+        margin: 16px 0px;
+        color: var(--color1);
+        font-family: var(--font1);
+        text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.6);
+    }
+
+    .quote {
+        font-size: 1.4rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .autora {
+        font-size: 1.2rem;
+        align-self: flex-end;
+    }
+
+    .divider {
+        background: transparent url(../img/divider.png) repeat-x;
+        background-position-y: bottom;
+        height: 80px;
+        width: 100vw;
+        align-self: flex-end;
+    }
+
+    /* Main Início */
+    main {
+        height: 80vh;
+        padding: 24px;
+        background: transparent url(../img/pattern.png) repeat;
+        background-size: stretch;
+        background-position: top;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .description {
+        max-width: 600px;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    .embed {
+        width: 600px;
+        height: 344px;
+    }
 }
 
 @media (max-width: 767px) {
 
+    /* Header Início */
+    h1 {
+        line-height: 80px;
+    }
+
+    header {
+        background: url('../img/bg-mobile.jpg') no-repeat fixed;
+        background-size: cover;
+        box-shadow: 0px 2px 4px 2px hsla(0, 0%, 0%, 0.4);
+        width: 100%;
+        height: 90vh;
+    }
+
+    .bg-h1 {
+        background: rgba(0, 0, 0, 0.6);
+        box-sizing: border-box;
+        height: 100%;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote, .autora {
+        margin: 16px 0px;
+        color: var(--color1);
+        font-family: var(--font1);
+        text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.6);
+    }
+
+    .quote {
+        font-size: 1.4rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .autora {
+        font-size: 1.2rem;
+        align-self: flex-end;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    /* Main */
+    main {
+        background: transparent url(../img/pattern.png) repeat;
+        background-size: stretch;
+        background-position: top;
+
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .description {
+        text-align: justify;
+    }
+
+    .embed {
+        width: 100%;
+        height: 50%;
+    }
 }

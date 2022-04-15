@@ -1,15 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 @media (min-width: 1024px) {
 
     /* Section 1 */
-
     .aboutaza {
-        height: 90vh;
+        height: 100%;
         max-width: 800px;
     
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -17,18 +14,8 @@
         gap: 8px;
     }
 
-    .aboutazatitle {
-        color: var(--color1);
-        text-align: center;
-        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
-        text-indent: 25px;
-    }
-
     .aboutazatxt {
-        color: var(--color1);
         text-align: justify;
-        text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.6);
-        text-indent: 35px;
     }
 
     .cards {
@@ -36,7 +23,7 @@
         width: 280px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 16px;
     }
 
     .telhadinho {
@@ -44,14 +31,14 @@
         height: 0; 
         border-left: 140px solid transparent;
         border-right: 140px solid transparent;
-        border-bottom: 100px solid var(--color5);
+        border-bottom: 100px solid var(--color3);
       }
 
     .card {
         height: 188px;
         padding: 8px 16px;
         text-align: center;
-        background: var(--color3) url('/img/ZZZ.png') no-repeat;
+        background: var(--color5);
         background-size: contain;
         border-radius: 15px;
         box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
@@ -64,16 +51,8 @@
 
     .card > p {
         font-size: 120%;
-        color: var(--color4);
-        text-shadow: none;
-    }
-
-    .card > h3 {
-        margin-bottom: 8px;
-    }
-
-    .aboutaza h2 {
-        margin-bottom: 24px;
+        color: var(--color2);
+        text-indent: 0;
     }
 
     .aboutcontent {
@@ -84,29 +63,233 @@
 
     header {
         width: 800px;
+        margin-bottom: 8px;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
     }
 
-
-
-
-
-
     /* Section 2 */
+    .aboutowner {
+        height: 100%;
+        max-width: 800px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
     .description-owner > img {
-        width: 80px;
-        height: 80px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
     }
 
+    .description-owner {
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .ownertitle {
+        align-self: flex-end;
+    }
+
+    .ownertxt {
+        text-align: justify;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    /* Section 1 */
+    .aboutaza {
+        height: 100%;
+        width: 736px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .aboutazatxt {
+        text-align: justify;
+    }
+
+    .cards {
+        flex-shrink: 0;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .telhadinho {
+        width: 0; 
+        height: 0; 
+        border-left: 120px solid transparent;
+        border-right: 120px solid transparent;
+        border-bottom: 100px solid var(--color3);
+    }
+
+    .card {
+        min-height: 188px;
+        padding: 16px;
+        text-align: center;
+        background: var(--color5);
+        background-size: contain;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card > p {
+        font-size: 120%;
+        color: var(--color2);
+        text-indent: 0;
+    }
+
+    .aboutcontent {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    header {
+        width: 100%;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Section 2 */
+    .aboutowner {
+        height: 100%;
+        width: 736px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .description-owner > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .description-owner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .ownertitle {
+        align-self: flex-end;
+    }
+
+    .ownertxt {
+        text-align: justify;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }
 
 @media (max-width: 767px) {
 
+    /* Section 1 */
+    .aboutaza {
+        min-height: auto;
+        max-width: 100%;
+        margin-bottom: 56px;
+    }
+
+    .aboutazatxt {
+        text-align: justify;
+    }
+
+    .telhadinho {
+        display: none;
+      }
+
+    .card {
+        height: 120px;
+        padding: 8px 16px;
+        margin: 16px 0px;
+        text-align: center;
+        background: var(--color5);
+        background-size: contain;
+        border-radius: 15px;
+        box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.4);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card > p {
+        font-size: 120%;
+        color: var(--color2);
+        text-indent: 0;
+    }
+
+    /* Section 2 */
+    .aboutowner {
+        max-width: 100%;
+    }
+
+    .description-owner > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        margin-bottom: 16px;
+    }
+
+    .description-owner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ownertxt {
+        text-align: justify;
+    }
+
+    .revista > img {
+        width: 50%;
+    }
+
+    .revista {
+        display: flex;
+        gap: 8px;
+    }
 }

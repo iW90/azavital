@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+.register {
+    color: var(--color3);
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.register:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+
+    /* Passo a Passo */
+    .passos-container {
+        width: 800px;
+        margin: 32px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px
+    }
+
+    .passos-card {
+        width: 28%;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+        background: var(--color1);
+        box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .passos-card > p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .passos-card > div, .passos-card > div:hover {
+        height: 120px;
+        margin: 16px 24px 24px 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 150ms;
+    }
+
+    .passos-img1 {
+        background-image: url(../img/01-registro.png);
+    }
+
+    .passos-img1:hover {
+        background: url(../img/01-registro.gif);
+    }
+
+    .passos-img2 {
+        background: url(../img/02-contato.png);
+    }
+
+    .passos-img2:hover {
+        background: url(../img/02-contato.gif);
+    }
+
+    .passos-img3 {
+        background: url(../img/03-destino.png);
+    }
+
+    .passos-img3:hover {
+        background: url(../img/03-destino.gif);
+    }
+
+    .passos-img4 {
+        background: url(../img/04-compras.png);
+    }
+
+    .passos-img4:hover {
+        background: url(../img/04-compras.gif);
+    }
+
+    .passos-img5 {
+        background: url(../img/05-pagamento.png);
+    }
+
+    .passos-img5:hover {
+        background: url(../img/05-pagamento.gif);
+    }
+
+    .passos-img6 {
+        background: url(../img/06-obra.png);
+    }
+
+    .passos-img6:hover {
+        background: url(../img/06-obra.gif);
+    }
+
+    /* Projetos Anteriores */
+
+    #carousel {
+        width: 800px;
+    }
+    
+    .afterbefore {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .afterbefore p {
+        text-indent: 0;
+        margin: 36px 0px 16px 0px;
+        font-size: 1.2rem;
+    }
+
+    #items {
+        display: flex;
+        
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+
+        scrollbar-width: thin; /* firefox */
+        scrollbar-color: var(--color3) var(--color5); /* firefox */
+    }
+    
+    .foto {
+        flex: none;
+        text-align: center;
+        width: 100%;
+        height: 600px;
+        
+        scroll-snap-align: start;
+        pointer-events: none;
+    }
+    
+    .foto img {
+        width: 49%;
+        height: 95%;
+        
+        object-fit: cover;
+    }
+
+            /* Scrollbar Chrome, Edge, Opera*/
+            #items::-webkit-scrollbar {
+                border-radius: 20px;
+            }
+            
+            #items::-webkit-scrollbar-track {
+                background: var(--color5);
+            }
+            
+            #items::-webkit-scrollbar-thumb {
+                background: var(--color3);
+                border-radius: 20px;
+                border: 3px solid var(--color5);
+            }
+
+    /* Kits de Serviços */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Passo a Passo */
+    .passos-container {
+        width: 100%;
+        margin: 32px 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px 2%;
+    }
+
+    .passos-card {
+        width: 30%;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+        background: var(--color1);
+        box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .passos-card > p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .passos-card > div, .passos-card > div:hover {
+        height: 120px;
+        margin: 16px 24px 24px 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 150ms;
+    }
+
+    .passos-img1 {
+        background-image: url(../img/01-registro.png);
+    }
+
+    .passos-img1:hover {
+        background: url(../img/01-registro.gif);
+    }
+
+    .passos-img2 {
+        background: url(../img/02-contato.png);
+    }
+
+    .passos-img2:hover {
+        background: url(../img/02-contato.gif);
+    }
+
+    .passos-img3 {
+        background: url(../img/03-destino.png);
+    }
+
+    .passos-img3:hover {
+        background: url(../img/03-destino.gif);
+    }
+
+    .passos-img4 {
+        background: url(../img/04-compras.png);
+    }
+
+    .passos-img4:hover {
+        background: url(../img/04-compras.gif);
+    }
+
+    .passos-img5 {
+        background: url(../img/05-pagamento.png);
+    }
+
+    .passos-img5:hover {
+        background: url(../img/05-pagamento.gif);
+    }
+
+    .passos-img6 {
+        background: url(../img/06-obra.png);
+    }
+
+    .passos-img6:hover {
+        background: url(../img/06-obra.gif);
+    }
+
+    /* Projetos Anteriores */
+    #carousel {
+        width: 100%;  
+    }
+    
+    .afterbefore {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .afterbefore p {
+        text-indent: 0;
+        margin: 36px 0px 16px 0px;
+        font-size: 1.2rem;
+    }
+
+    #items {
+        display: flex;
+        
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+
+        scrollbar-width: thin; /* firefox */
+        scrollbar-color: var(--color3) var(--color5); /* firefox */
+    }
+    
+    .foto {
+        flex: none;
+        text-align: center;
+        width: 100%;
+        height: 600px;
+        
+        scroll-snap-align: start;
+        pointer-events: none;
+    }
+    
+    .foto img {
+        width: 49%;
+        height: 95%;
+        
+        object-fit: cover;
+    }
+
+            /* Scrollbar */
+            #items::-webkit-scrollbar {
+                border-radius: 20px;
+            }
+            
+            #items::-webkit-scrollbar-track {
+                background: var(--color5);
+            }
+            
+            #items::-webkit-scrollbar-thumb {
+                background: var(--color3);
+                border-radius: 20px;
+                border: 3px solid var(--color5);
+            }
+}
+
+@media (max-width: 767px) {
+
+    /* Passo a Passo */
+    .passos-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px
+    }
+
+    .passos-card {
+        width: 250px;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+        background: var(--color1);
+        box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .passos-card > p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .passos-card > div {
+        height: 120px;
+        margin: 16px 24px 24px 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .passos-img1 {
+        background-image: url(../img/01-registro.png);
+    }
+
+    .passos-img2 {
+        background: url(../img/02-contato.png);
+    }
+
+    .passos-img3 {
+        background: url(../img/03-destino.png);
+    }
+
+    .passos-img4 {
+        background: url(../img/04-compras.png);
+    }
+
+    .passos-img5 {
+        background: url(../img/05-pagamento.png);
+    }
+
+    .passos-img6 {
+        background: url(../img/06-obra.png);
+    }
+
+    /* Projetos Anteriores */
+    #carousel {
+        width: 100%;  
+    }
+
+    .afterbefore {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .afterbefore p {
+        text-indent: 0;
+        margin: 36px 0px 16px 0px;
+        font-size: 1rem;
+    }
+      
+    #items {
+        display: flex;
+        
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    
+    .foto {
+        flex: none;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        
+        scroll-snap-align: start;
+        pointer-events: none;
+    }
+    
+    .foto img, .foto .capa {
+        width: 49%;
+        height: 95%;
+        
+        object-fit: cover;
+    }
+
+            /* Scrollbar */
+            #items::-webkit-scrollbar {
+                border-radius: 20px;
+            }
+            
+            #items::-webkit-scrollbar-track {
+                background: var(--color5);
+            }
+            
+            #items::-webkit-scrollbar-thumb {
+                background: var(--color3);
+                border-radius: 20px;
+                border: 3px solid var(--color5);
+            }
+}

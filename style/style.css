@@ -1,121 +1,165 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+/* Fontes */
+@font-face {
+    font-family: Nova;
+    src: url(../fonts/nova.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/centurygothicregular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/centurygothicbold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/centurygothicitalic.otf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/centurygothicbolditalic.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
 
 /* Base */
 :root {
     font-size: 16px;
     --color1: #fff;
-    --color2: #000;
-    --color3: #FFC000;
-    --color4: #1D0404;
-    --color5: #fe230b;
-    --font1: 'Arial';
-    --fontTitle: 'Shadows Into Light Two';
+    --color2: #42210B;
+    --color3: #f15a24;
+    --color4: #888;
+    --color5: #ddd;
+    --font1: 'Century Gothic';
+    --fontTitle: Nova;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background: linear-gradient(180deg, var(--color3) 0%, var(--color5) 50%) fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--color1);
+    font-family: 'Century Gothic';
+    color: var(--color4);
     width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 64px;
 }
 
 @media (min-width: 1024px) {
 
-    /* Fixed */
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5%;
 
-        background: transparent url(/img/pattern4.png) repeat;
+        background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
-    }
-
-    h1 {
-        color: var(--color5);
-        font-family: var(--fontTitle);
-        font-size: 7rem;
-        text-align: center;
-        margin: 0px -160px 0px -160px;
-        text-shadow: 4px 4px 0px hsla(0, 0%, 0%, 1);
+        padding: 0px 48px 64px 48px;
     }
 
     h2 {
-        color: var(--color1);
+        color: var(--color3);
         font-family: var(--font1);
         font-size: 1.8rem;
-        text-shadow: 1px 1px 1px hsl(0deg 0% 0% / 60%);
+        font-weight: bold;
+        text-indent: 36px;
     }
 
     h3 {
-        color: var(--color1);
+        color: var(--color3);
         font-family: var(--font1);
         font-size: 1.6rem;
-        text-shadow: 1px 1px 1px hsl(0deg 0% 0% / 60%);
+        font-weight: bold;
     }
 
     p {
-        color: var(--color1);
+        color: var(--color4);
         font-family: var(--font1);
         font-size: 1.4rem;
-        text-shadow: 1px 1px 1px hsl(0deg 0% 0% / 60%);
+        letter-spacing: 2px;
+        text-indent: 36px;
     }
 
     a {
         text-decoration: none;
     }
 
+    .creditos > p {
+        font-size: 1rem;
+    }
+
     /* Menu */
     nav {
         position: fixed;
-        background: linear-gradient(180deg, var(--color4) 0%, var(--color5) 10%);
+        background: var(--color1) url(../img/cobogo.png);
         box-sizing: border-box;
         width: 100%;
         height: 80px;
         padding: 0px 40px;
-        box-shadow: 0px 2px 4px 2px hsla(0, 0%, 0%, 0.3);
-        font-size: 1.2rem;
+        box-shadow: 0px 1px 1px rgba(241, 90, 37, 0.3);
+        font-size: 1rem;
         text-transform: uppercase;
     }
 
     nav, ul {
+        letter-spacing: 2px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 80px;
     }
 
-    .inativo {
-        color: var(--color1);
+    .outline{
+        padding-bottom: 4px;
     }
 
-    .inativo:hover {
-        color: var(--color3);
-        text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.6);
-        transition: 500ms;
+    .ativo > .outline {
+        border-bottom: 3px solid var(--color3);
+    }
+
+    .inativo {
+        color: var(--color4);
+    }
+
+    .inativo:hover > .outline {
+        border-bottom: 3px solid var(--color3); 
+        transition: 100ms;
     }
 
     .ativo {
-        color: #ffcd37;
-        text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.6);
-    }
-
-    .ativo:hover {
-        text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.6);
-        transition: 500ms;
+        color: var(--color3);
         font-weight: bold;
     }
     
     .logo {
-        width: 140px;
+        width: 120px;
     }
 
     .navbar a {
         text-decoration: none;
+    }
+
+    .icon {
+        display: none;
     }
 
     .space {
@@ -124,7 +168,7 @@ body {
 
     /* Footer */
     footer {
-        background-color: var(--color4);
+        background-color: var(--color2);
         box-shadow: 0px -2px 4px 2px hsla(0, 0%, 0%, 0.4);
         padding: 16px 40px;
         color: var(--color1);
@@ -132,6 +176,10 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .foot-mobile {
+        display: none;
     }
 
     .contatos {
@@ -142,16 +190,17 @@ body {
     }
 
     .social-button {
-        width: 25px;
+        width: 24px;
     }
 
     .social-buttons {
         gap: 0px 8px;
     }
 
-    footer a {
+    footer a, footer p {
         text-decoration: none;
         color: var(--color1);
+        font-size: 1rem;
     }
 
     .creditos, .parceiros {
@@ -159,15 +208,278 @@ body {
     }
 
     .indent {
-        text-indent: 20px;
+        text-indent: 24px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: transparent url(../img/pattern.png) repeat;
+        background-size: stretch;
+        background-position: top;
+        padding: 0px 24px 64px 24px;
+    }
+
+    h2 {
+        color: var(--color3);
+        font-family: var(--font1);
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-indent: 36px;
+    }
+
+    h3 {
+        color: var(--color3);
+        font-family: var(--font1);
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    p {
+        color: var(--color4);
+        font-family: var(--font1);
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        text-indent: 36px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .creditos > p {
+        font-size: 1rem;
+    }
+
+    /* Menu */
+    nav {
+        position: fixed;
+        background: var(--color1) url(../img/cobogo.png);
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        padding: 0px 24px;
+        box-shadow: 0px 1px 1px rgba(241, 90, 37, 0.3);
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    nav, ul {
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+    }
+
+    .outline{
+        padding-bottom: 4px;
+    }
+
+    .inativo {
+        color: var(--color4);
+    }
+
+
+    .ativo {
+        color: var(--color3);
+        font-weight: bold;
+    }
+    
+    .logo {
+        width: 120px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .space {
+        height: 80px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: var(--color2);
+        box-shadow: 0px -2px 4px 2px hsla(0, 0%, 0%, 0.4);
+        padding: 16px 40px;
+        color: var(--color1);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foot-mobile {
+        display: none;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .social-button {
+        width: 24px;
+    }
+
+    .social-buttons {
+        gap: 0px 8px;
+    }
+
+    footer a, footer p {
+        text-decoration: none;
+        color: var(--color1);
+        font-size: 1rem;
+    }
+
+    .creditos, .parceiros {
+        font-size: 0.8rem;
+    }
+
+    .indent {
+        text-indent: 24px;
+    }
 }
 
 @media (max-width: 767px) {
 
+    main {
+        padding: 0px 24px 64px 24px;
+    }
+
+    h2 {
+        color: var(--color3);
+        font-family: var(--font1);
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 24px;
+        text-indent: 36px;
+    }
+
+    h3 {
+        color: var(--color3);
+        font-family: var(--font1);
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    p {
+        color: var(--color4);
+        font-family: var(--font1);
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        text-indent: 36px;
+    }
+
+    .creditos > p {
+        font-size: 1rem;
+    }
+
+    /* Menu */
+    nav {
+        background: url(../img/cobogo2.png) repeat;
+        background-size: stretch;
+        box-shadow: 0px 1px 1px rgba(241, 90, 37, 0.3);
+        text-transform: uppercase;
+        font-size: 1rem;
+        overflow: hidden;
+        position: relative;
+      }
+      
+    .navtop {
+        padding-bottom: 2px;
+    }
+
+    #navbar {
+        height: 90vh;
+        display: none;
+        border-top: solid 2px var(--color3);
+        padding: 4px;
+    }
+
+    nav a {
+        color: var(--color2);
+        padding: 14px 16px;
+        text-align: center;
+        display: block;
+    }
+
+    nav .ativo, nav .inativo {
+        padding: 36px 0px;
+    }
+
+    nav a.icon {
+        display: block;
+        position: absolute;
+        right: 4px;
+        top: 0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: var(--color5);
+        color: var(--color3);
+        font-weight: bold;
+        transition: 500ms;
+    }
+
+    .logo {
+        width: 112px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: var(--color2);
+        box-shadow: 0px -2px 4px 2px hsla(0, 0%, 0%, 0.4);
+        padding: 32px 40px;
+        color: var(--color1);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foot-web {
+        display: none;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .social-button {
+        width: 36px;
+    }
+
+    .social-buttons a {
+        margin: 0px 8px;
+    }
+
+    footer a, footer p {
+        text-decoration: none;
+        color: var(--color1);
+        font-size: 1.4rem;
+    }
+
+    .creditos, .parceiros {
+        display: none;
+    }
 }
