@@ -18,7 +18,7 @@
     <meta property="og:image:height" content="1330"/>
     <meta property="og:description" content="Projetos arquitetônicos e culturais para reformas, design de interiores, decoração, paisagismo e recuperação de móveis, com pagamento flexível e mão de obra especializada. Arquitetura acessível a todos, evite desperdício de tempo e dinheiro e realize seu sonho com tranquilidade e planejamento!">
 
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/servicos.css">
@@ -26,22 +26,109 @@
 <body>
 
     <nav>
-        <img class="logo" src="img/logo2.png" alt="Logo">
-        <ul class="navbar">
-            <li><a class="inativo" href="/index.html" alt="Início">Início</a></li>
-            <li><a class="inativo" href="/quemsomos.html" alt="Quem somos">Quem somos</a></li>
-            <li><a class="ativo" href="/servicos.html" alt="Serviços">Serviços</a></li>
-            <li><a class="inativo" href="/contato.html" alt="Contato">Contatos</a></li>
+        <div class="navtop">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+            </a>
+        </div>
+        <ul id="navbar">
+            <li><a class="inativo" href="./index.html" alt="Início"><span class="outline">Iníci</span>o</a></li>
+            <li><a class="inativo" href="./quemsomos.html" alt="Quem somos"><span class="outline">Quem</span> somos</a></li>
+            <li><a class="ativo" href="./servicos.html" alt="Serviços"><span class="outline">Serv</span>iços</a></li>
+            <li><a class="inativo" href="./contato.html" alt="Contato"><span class="outline">Cont</span>ato</a></li>
         </ul>
     </nav>
     <div class="space"></div>
     
 
     <main>
-        <p class="description">O AzA Vital Studio é uma empresa jovem que tem como princípio fundamental tornar a arquitetura acessível a todos. Atuamos tanto com projetos residenciais quanto comerciais, nas mais diversas escalas: decoração, recuperação de móveis, paisagismo e projetos culturais.</p>
-        <div class="embed">
-            <iframe src="https://www.youtube.com/embed/Rc5D2ubqqIY" height="100%" width="100%"></iframe>
-        </div>
+        <section class="passos">
+            <h2>Passo a Passo</h2>
+            <div class="passos-container">
+                <div class="passos-card">
+                    &#10122;
+                    <div class="passos-img1"></div>
+                    <p class="passostxt">Faça um <a href="https://docs.google.com/forms/d/e/1FAIpQLSco6k2oX36orL87wlxM06eqVN7hhDtSPLZiAUnRUZK5LLc3Zg/viewform" class="register" target="_blank">cadastro</a> conosco</p>
+                </div>
+                <div class="passos-card">
+                    &#10123;
+                    <div class="passos-img2"></div>
+                    <p class="passostxt">Entraremos em contato para combinar uma visita</p>
+                </div>
+                <div class="passos-card">
+                    &#10124;
+                    <div class="passos-img3"></div>
+                    <p class="passostxt">Um de nossos especialistas vai até você</p>
+                </div>
+                <div class="passos-card">
+                    &#10125;
+                    <div class="passos-img4"></div>
+                    <p class="passostxt">Você escolhe tudo: materiais, cores e revestimentos</p>
+                </div>
+                <div class="passos-card">
+                    &#10126;
+                    <div class="passos-img5"></div>
+                    <p class="passostxt">Pensamos juntos na melhor
+                        forma de pagamento</p>
+                </div>
+                <div class="passos-card">
+                    &#10127;
+                    <div class="passos-img6"></div>
+                    <p class="passostxt">Mãos à obra!</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projetos Anteriores</h2>
+
+            <div id="carousel">
+                <div class="afterbefore">
+                    <p>ANTES</p>
+                    <P>DEPOIS</P>
+                </div>
+                <div id="items">
+                    <div class="foto">
+                        <img src="./img/cliente1/c1foto0a.jpeg" alt="">
+                        <img src="./img/cliente1/c1foto0d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente1/c1foto1a.jpeg" alt="">
+                        <img src="./img/cliente1/c1foto1d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente1/c1foto2a.jpeg" alt="">
+                        <img src="./img/cliente1/c1foto2d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente1/c1foto3a.jpeg" alt="">
+                        <img src="./img/cliente1/c1foto3d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente2/c2foto1a.jpg" alt="">
+                        <img src="./img/cliente2/c2foto1d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente2/c2foto2a.jpg" alt="">
+                        <img src="./img/cliente2/c2foto2d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente2/c2foto3a.jpg" alt="">
+                        <img src="./img/cliente2/c2foto3d.jpg" alt="">
+                    </div>
+                    <div class="foto">
+                        <img src="./img/cliente2/c2foto4a.jpg" alt="">
+                        <img src="./img/cliente2/c2foto4d.jpg" alt="">
+                    </div>
+                </div>
+              </div>
+
+
+
+        </section>
+        <section>
+            <h2>Kits de Serviços</h2>
+        </section>
     </main>
 
     <footer>
@@ -51,22 +138,23 @@
             <p class="indent">Habitat para a Humanidade</p>
         </div>
         <div class="contatos">
-            <a href="#">AZA VITAL STUDIO | www.azavital.com.br</a>
+            <a class="foot-web" href="#">AZA VITAL STUDIO | www.azavital.com.br</a>
+            <a class="foot-mobile" href="#">AZA VITAL STUDIO<br>www.azavital.com.br</a>
             <div class="social-buttons">
-                <a href="https://www.instagram.com/azavital.arqsocial/" target="_blank"><img class="social-button" src="img/05_insta.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/Azavitalstudio" target="_blank"><img class="social-button" src="img/04_face.png" alt="facebook"></a>
-                <a href="https://www.linkedin.com/in/natascha-vital/" target="_blank"><img class="social-button" src="img/03_lkdin.png" alt="linkedin"></a>
-                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="_blank"><img class="social-button" src="img/02_wpp.png" alt="whatsapp"></a>
-                <a href="mailto:studioazavital@gmail.com" target="_blank"><img class="social-button" src="img/01_email.png" alt="email"></a>
+                <a href="https://www.instagram.com/azavital.arqsocial/" target="_blank"><img class="social-button" src="./img/05_insta.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Azavitalstudio" target="_blank"><img class="social-button" src="./img/04_face.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/in/natascha-vital/" target="_blank"><img class="social-button" src="./img/03_lkdin.png" alt="linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="_blank"><img class="social-button" src="./img/02_wpp.png" alt="whatsapp"></a>
+                <a href="mailto:studioazavital@gmail.com" target="_blank"><img class="social-button" src="./img/01_email.png" alt="email"></a>
             </div>
         </div>
         <div class="creditos">
             <p>Créditos:</p>
             <p class="indent"><a href="">WomakersCode</a></p>
             <p class="indent"><a href="">Flaticon</a></p>
-            <p class="indent"><a href='https://br.freepik.com/fotos-vetores-gratis/projeto'>Wayhomestudio - Freepik</a></p>
         </div>
     </footer>
-
+    <script src="./scripts/nav.js" defer></script>
+    <script src="./scripts/carousel.js" defer></script>
 </body>
 </html>
