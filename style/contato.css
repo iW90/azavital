@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media (min-width: 1024px) {
+     /* Contratar */
+    main{
+        width: 50%;
+        margin: 0 auto;
+    }
+    h2{
+        text-align: center;
+        margin: 30px 0;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    .form{
+        padding: 20px;
+        background-color: #FFF;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    .form .row{
+        display: block;
+        padding: 10px;
+    }
+    .form .input{
+        display: block;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .form .textarea{
+        display: block;
+        width: 100%;
+        height: 150%;
+        padding: 8px;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        font-size: 1.2em;
+        resize: none;
+    }
+    .form .btn{
+        display: block;
+        padding: 15px 30px;
+        margin-left: 8px;
+        background-color: #f15a24;
+        color: #FFF;
+        font-size: 1.2em;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+    }
+    .form .btn:hover{
+        cursor: pointer;
+    }
+   
+    /* Dúvidas */
+
+    /* Social Media */
+    .redes-sociais img{
+        width: 70px;
+        height: 70px;
+        margin: 0 15px;
+    }
+
+    /* Parceiros */
+    section .parceiros{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        
+    }
+    .parceiros a img{
+        width: 270px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+@media (max-width: 767px) {
+
+}
