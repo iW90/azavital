@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzA Vital Studio - Home</title>
+
+    <meta name="description" content="Arquitetura acessível a todos: Fazemos projetos para reformas, design de interiores, decoração e paisagismo com pagamento flexível e mão de obra especializada.">
+    <meta name="keywords" content="arquitetura, design de interiores, reformas, projetos culturais, decoração, paisagismo, pagamento flexível">
+
+    <meta property="og:locate" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AzA Visual Studio">
+    <meta property="og:site_name" content="AzA Visual Studio">   
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:image:width" content="2500"/>
+    <meta property="og:image:height" content="1330"/>
+    <meta property="og:description" content="Projetos arquitetônicos e culturais para reformas, design de interiores, decoração, paisagismo e recuperação de móveis, com pagamento flexível e mão de obra especializada. Arquitetura acessível a todos, evite desperdício de tempo e dinheiro e realize seu sonho com tranquilidade e planejamento!">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/contato.css">
+</head>
+<body>
+
+    <nav>
+        <div class="navtop">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+            </a>
+        </div>
+        <ul id="navbar">
+            <li><a class="inativo" href="./index.html" alt="Início"><span class="outline">Iníci</span>o</a></li>
+            <li><a class="inativo" href="./quemsomos.html" alt="Quem somos"><span class="outline">Quem</span> somos</a></li>
+            <li><a class="inativo" href="./servicos.html" alt="Serviços"><span class="outline">Serv</span>iços</a></li>
+            <li><a class="ativo" href="./contato.html" alt="Contato"><span class="outline">Cont</span>ato</a></li>
+        </ul>
+    </nav>
+    <div class="space"></div>
+
+    <main>
+        <section >
+            <h2>Contratar Serviços</h2>
+
+            <p>Para entrar em contato conosco, você pode nos mandar um e-mail ou uma mensagem por uma de nossas redes sociais.
+            </p>
+            
+            <form class="form" action="" method="">
+                <div class="row">
+                    <input class="input" type="text" name="nome"      placeholder="Nome">
+                </div>
+                <div class="row">
+                    <input class="input" type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="row">
+                    <input class="input" type="text" name="assunto" 
+                placeholder="Assunto">
+                </div>
+                <div class="row">
+                    <textarea  class="textarea" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+                <div>
+                    <input class="btn" type="submit" name="enviar"  value="Enviar">
+                </div>
+            </form>
+          <!-- MAPA -->
+              
+            <script src='http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54'></script>
+
+            <div style='overflow:hidden;height:280px;width:100%;color: #0095eb'>
+                <div id='gmap_canvas' style='height:280px;width:100%;'></div>
+                <style>#gmap_canvas img{max-width:none!important;background:none!important}.gm-ui-hover-effect{
+                display: none!important;}</style>
+            </div>
+
+            <!-- Alterar apenas Aqui -->
+            <script type='text/javascript'>
+                function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(-22.9688813,-46.5338473),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-22.9688813,-46.5338473)});infowindow = new google.maps.InfoWindow({content:'<strong> MINHA EMPRESA </strong><br> MEU ENDEREÇO <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+                </script>
+                <!-- Alterar apenas Aqui -->
+
+            <!-- MAPA -->
+        </section>
+        <section>
+            <h2>Redes Sociais</h2>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/azavital.arqsocial/" target="blank">
+                    <img src="/img/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Azavitalstudio" target="blank">
+                    <img src="/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/in/natascha-vital/" target="blank">
+                    <img src="/img/linkedin.png" alt="linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="blank">
+                    <img src="/img/whatsapp.png" alt="whatsapp"></a>
+            </div>
+        </section>
+        <section>
+            <h2>Conheça nossos parceiros</h2>
+            <div class="parceiros">
+                <a href="https://habitatbrasil.org.br/" target="blank">
+                    <img src="/img/habitat.png" alt="parceria-habitat"> 
+                </a>
+                <a href="https://www.novavivenda.com.br/" target="blank">  <img src="/img/novavivenda.PNG" alt="parceria-novavivenda"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="parceiros">
+            <p>Parceiros:</p>
+            <p class="indent">Nova Vivenda</p>
+            <p class="indent">Habitat para a Humanidade</p>
+        </div>
+        <div class="contatos">
+            <a class="foot-web" href="#">AZA VITAL STUDIO | www.azavital.com.br</a>
+            <a class="foot-mobile" href="#">AZA VITAL STUDIO<br>www.azavital.com.br</a>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/azavital.arqsocial/" target="_blank"><img class="social-button" src="./img/05_insta.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Azavitalstudio" target="_blank"><img class="social-button" src="./img/04_face.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/in/natascha-vital/" target="_blank"><img class="social-button" src="./img/03_lkdin.png" alt="linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="_blank"><img class="social-button" src="./img/02_wpp.png" alt="whatsapp"></a>
+                <a href="mailto:studioazavital@gmail.com" target="_blank"><img class="social-button" src="./img/01_email.png" alt="email"></a>
+            </div>
+        </div>
+        <div class="creditos">
+            <p>Créditos:</p>
+            <p class="indent"><a href="">WomakersCode</a></p>
+            <p class="indent"><a href="">Flaticon</a></p>
+        </div>
+    </footer>
+    <script src="./scripts/nav.js" defer></script>
+</body>
+</html>
