@@ -43,15 +43,89 @@
     
 
     <main>
-        <section>
-            <h2>Contratar Serviços</h2>
+        <section class="email">
+            <h2>Contato por E-mail</h2>
+            <p>Para entrar em contato conosco, você pode nos mandar um e-mail ou uma mensagem por uma de nossas redes sociais.
+            </p>
+            
+            <form class="form" action="" method="POST">
+                <div class="row">
+                    <input class="input" type="text" name="nome" placeholder="Nome">
+                </div>
+                <div class="row">
+                    <input class="input" type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="row">
+                    <input class="input" type="text" name="assunto" 
+                placeholder="Assunto">
+                </div>
+                <div class="row">
+                    <textarea  class="textarea" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+                <div>
+                    <input class="btn" type="submit" name="enviar" value="Enviar">
+                </div>
+            </form>
         </section>
-        <section>
+        <section class="media-social">
             <h2>Redes Sociais</h2>
+            <p>Você também pode entrar em contato e ver nosso trabalho através de nossas redes sociais:</p>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/azavital.arqsocial/" target="blank">
+                    <img src="/img/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Azavitalstudio" target="blank">
+                    <img src="/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/in/natascha-vital/" target="blank">
+                    <img src="/img/linkedin.png" alt="linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="blank">
+                    <img src="/img/whatsapp.png" alt="whatsapp"></a>
+            </div>
         </section>
-        <section>
-            <h2>Conheça nossos parceiros</h2>
+        <section class="parcerias-e-apoios">
+            <h2>Parceiros e Apoiadores<h2>
+            <h3>Quem são nossos parceiros</h3>
+            <p>Agradecimentos aos nossos parceiros, que atuam conosco quando precisamos:</p>
+            <div class="parcerias">
+                <div class="content">
+                    <a href="https://habitatbrasil.org.br/" target="blank">
+                        <img src="/img/habitat.png" alt="parceria-habitat"> 
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="https://www.novavivenda.com.br/" target="blank">
+                        <img src="/img/novavivenda.PNG" alt="parceria-novavivenda">
+                    </a>
+                </div>
+            </div>
+
+            <h3>Quem nos apoiou</h3>
+            <p>Também temos muito a agradecer por quem nos apoiou no início da jornada</p>
+            <div class="apoiadores">
+                <div class="content">
+                    <a href="https://habitatbrasil.org.br/" target="blank">
+                        <img src="/img/digital.png" alt="parceria-habitat"> 
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="https://habitatbrasil.org.br/" target="blank">
+                        <img src="/img/labnip.jpg" alt="parceria-habitat"> 
+                    </a>
+                </div>
+            </div>
         </section>
+        <section class="area">
+
+        </section>
+
+
+<!--          AINDA NÃO HÁ ENDEREÇO FÍSICO
+        <section id="gmap">
+            <h2>Localização</h2>
+            <div id="gmap_canvas"></div>
+        </section> -->
+
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54" defer></script>
+        <script src="./scripts/map.js" defer></script>
     </main>
 
     <footer>
