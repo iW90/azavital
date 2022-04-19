@@ -63,6 +63,16 @@ section {
     padding-top: 64px;
 }
 
+hr {
+    width: 50%;
+    height: 4px;
+    background-color: var(--color2);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 96px;
+}
+
 @media (min-width: 1024px) {
 
     main {
