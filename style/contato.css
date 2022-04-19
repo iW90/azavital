@@ -116,7 +116,7 @@
     }
 
     /* Mapa */
-    #gmap {
+    /* #gmap {
         overflow: hidden;
         height: auto;
         width: 800px;
@@ -135,7 +135,7 @@
     
     .gm-ui-hover-effect {
         display: none;
-    }
+    } */
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -254,10 +254,10 @@
     }
 
     /* Mapa */
-    #gmap {
+    /* #gmap {
         overflow: hidden;
         height: auto;
-        width: 800px;
+        width: 100%;
         color: var(--color3)
     }
 
@@ -273,7 +273,7 @@
     
     .gm-ui-hover-effect {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 767px) {
