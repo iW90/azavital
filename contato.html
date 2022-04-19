@@ -45,13 +45,57 @@
     <main>
         <section>
             <h2>Contratar Serviços</h2>
+            <p>Para entrar em contato conosco, você pode nos mandar um e-mail ou uma mensagem por uma de nossas redes sociais.
+            </p>
+            
+            <form class="form" action="" method="POST">
+                <div class="row">
+                    <input class="input" type="text" name="nome"      placeholder="Nome">
+                </div>
+                <div class="row">
+                    <input class="input" type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="row">
+                    <input class="input" type="text" name="assunto" 
+                placeholder="Assunto">
+                </div>
+                <div class="row">
+                    <textarea  class="textarea" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+                <div>
+                    <input class="btn" type="submit" name="enviar"  value="Enviar">
+                </div>
+            </form>
         </section>
         <section>
             <h2>Redes Sociais</h2>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/azavital.arqsocial/" target="blank">
+                    <img src="/img/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Azavitalstudio" target="blank">
+                    <img src="/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.linkedin.com/in/natascha-vital/" target="blank">
+                    <img src="/img/linkedin.png" alt="linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5516993232985" target="blank">
+                    <img src="/img/whatsapp.png" alt="whatsapp"></a>
+            </div>
         </section>
         <section>
             <h2>Conheça nossos parceiros</h2>
+            <div class="parceiros">
+                <a href="https://habitatbrasil.org.br/" target="blank">
+                    <img src="/img/habitat.png" alt="parceria-habitat"> 
+                </a>
+                <a href="https://www.novavivenda.com.br/" target="blank">  <img src="/img/novavivenda.PNG" alt="parceria-novavivenda"></a>
+            </div>
         </section>
+        <section id="gmap">
+            <h2>Localização</h2>
+            <div id="gmap_canvas"></div>
+        </section>
+
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54" defer></script>
+        <script src="./scripts/map.js" defer></script>
     </main>
 
     <footer>
