@@ -4,39 +4,26 @@
 
     section {
         height: 100%;
-        max-width: 800px;
+        width: 800px;
+        text-align: justify;
    }
 
-    h2 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.8rem;
-        font-weight: bold;
-        text-indent: 36px;
+    /* Contatar */
+    .email {
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
     }
 
-    h3 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-
-    p {
-        color: var(--color4);
-        font-family: var(--font1);
-        font-size: 1.4rem;
-        letter-spacing: 2px;
-        text-indent: 36px;
-    }
-
-    /* Contratar */
    .form {
-       padding: 24px;
+       box-sizing: border-box;
+       width: 100%;
+       padding: 24px 40px 40px 24px;
        background-color: var(--color1);
        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
        border-radius: 5px;
-       margin-bottom: 32px;
    }
 
     .form .row {
@@ -83,6 +70,16 @@
     }
 
     /* Social Media */
+    .media-social {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .redes-sociais {
+        margin: auto;
+    }
+
     .redes-sociais img {
         width: 72px;
         height: 72px;
@@ -90,27 +87,43 @@
     }
 
     /* Parceiros */
-    section .parceiros {
-        display: flex;
-        align-items: center;
-        gap: 48px;
-        
+    h3{
+        text-indent: 36px;
     }
 
-    .parceiros a img {
-        width: 270px;
-        height: 150px;
+    .parcerias-e-apoios {
+        margin: 32px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .parcerias, .apoiadores {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+    
+    .content {
+        width: auto;
+        height: 160px;
+    }
+
+    .parcerias div img, .apoiadores div img {
+        width: auto;
+        height: 100%;
     }
 
     /* Mapa */
     #gmap {
         overflow: hidden;
-        height: 280px;
+        height: auto;
         width: 800px;
         color: var(--color3)
     }
 
-    #gmap_canvas{
+    #gmap_canvas {
         height: 280px;
         width: 100%;
     }
