@@ -277,5 +277,141 @@
 }
 
 @media (max-width: 767px) {
+    section {
+        height: 100%;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    /* Contatar */
+    .email {
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .form {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 40px 40px 24px;
+        background-color: var(--color1);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+    
+    .form .row {
+        display: block;
+        padding: 10px;
+    }
+    
+    .form .input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid var(--color5);
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2em;
+        color: var(--color4);
+    }
+    
+    .form .textarea {
+        display: block;
+        width: 100%;
+        height: 150%;
+        padding: 8px;
+        border: 1px solid var(--color5);
+        border-radius: 5px;
+        font-size: 1.2em;
+        font-family: 'Courier New', Courier, monospace;
+        resize: none;
+    }
+    
+    .form .btn {
+        display: block;
+        padding: 16px 32px;
+        margin-left: 8px;
+        background-color: var(--color3);
+        color: var(--color1);
+        font-size: 1.2em;
+        border: 1px solid var(--color5);
+        border-radius: 5px;
+    }
+    
+    .form .btn:hover {
+        cursor: pointer;
+    }
+    
+    /* Social Media */
+    .media-social {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .redes-sociais {
+        margin: auto;
+    }
+    
+    .redes-sociais img {
+        width: 64px;
+        height: 64px;
+        margin: 0 4px;
+    }
+    
+    /* Parceiros */
+    h3 {
+        text-indent: 36px;
+    }
+    
+    .parcerias-e-apoios {
+        margin: 4px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .parcerias,
+    .apoiadores {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-bottom: 4px; */
+    }
+    
+    .content {
+        width: auto;
+        height: 72px;
+    }
+    
+    .parcerias div img,
+    .apoiadores div img {
+        width: auto;
+        height: 64px;
+    }
+    
+    /* Mapa */
+    /* #gmap {
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+        color: var(--color3)
+    }
+
+    #gmap_canvas {
+        height: 280px;
+        width: 100%;
+    }
+
+    #gmap_canvas img {
+        max-width: none;
+        background: none;
+    }
+    
+    .gm-ui-hover-effect {
+        display: none;
+    } */
 
 }
