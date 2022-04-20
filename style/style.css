@@ -199,8 +199,9 @@ hr {
         gap: 8px;
     }
 
-    .social-button {
-        width: 24px;
+    .social-button, .parceiros img {
+        height: 24px;
+        width: auto;
     }
 
     .social-buttons {
