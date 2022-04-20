@@ -40,6 +40,7 @@
     --color3: #f15a24;
     --color4: #888;
     --color5: #ddd;
+    --color6: #333;
     --font1: 'Century Gothic';
     --fontTitle: Nova;
 }
@@ -102,7 +103,7 @@ hr {
     }
 
     p {
-        color: var(--color4);
+        color: var(--color6);
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
@@ -253,7 +254,7 @@ hr {
     }
 
     p {
-        color: var(--color4);
+        color: var(--color6);
         font-family: var(--font1);
         font-size: 1.4rem;
         letter-spacing: 2px;
@@ -388,10 +389,9 @@ hr {
     }
 
     p {
-        color: var(--color4);
+        color: var(--color6);
         font-family: var(--font1);
         font-size: 1.4rem;
-        letter-spacing: 2px;
         text-indent: 36px;
     }
 
