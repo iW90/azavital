@@ -72,28 +72,92 @@ h1 {
 
     /* Main Início */
     main {
-        height: 80vh;
-        padding: 24px;
+        height: auto;
         background: transparent url(../img/pattern.png) repeat;
         background-size: stretch;
         background-position: top;
+    }
 
+    .description-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5%;
     }
 
     .description {
         max-width: 600px;
         text-align: justify;
         font-size: 1.4rem;
+        margin-bottom: 48px;
     }
 
     .embed {
         width: 600px;
         height: 344px;
     }
+
+    /* Como funciona */
+    .func-container, .serv-container {
+        width: 800px;
+        height: auto;
+    }
+
+    .func-cards {
+        width: 800px;
+        margin: 32px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px
+    }
+
+    .func-card {
+        width: 28%;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+        background: var(--color1);
+        box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .func-card > p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .func-card > div {
+        height: 120px;
+        margin: 16px 24px 24px 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 150ms;
+    }
+
+    .func-img1 {
+        background-image: url(../img/funcionamento/4105763.png);
+    }
+
+    .func-img2 {
+
+    }
+
+    .func-img3 {
+
+    }
+
+    .func-img4 {
+
+    }
+
+    .func-img5 {
+
+    }
+
+    /* Serviços Inclusos */
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
