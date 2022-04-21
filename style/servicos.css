@@ -575,18 +575,100 @@
         object-fit: cover;
     }
 
-            /* Scrollbar */
-            #items::-webkit-scrollbar {
-                border-radius: 20px;
-            }
-            
-            #items::-webkit-scrollbar-track {
-                background: var(--color5);
-            }
-            
-            #items::-webkit-scrollbar-thumb {
-                background: var(--color3);
-                border-radius: 20px;
-                border: 3px solid var(--color5);
-            }
+    /* Scrollbar */
+    #items::-webkit-scrollbar {
+        border-radius: 20px;
+    }
+    
+    #items::-webkit-scrollbar-track {
+        background: var(--color5);
+    }
+    
+    #items::-webkit-scrollbar-thumb {
+        background: var(--color3);
+        border-radius: 20px;
+        border: 3px solid var(--color5);
+    }
+
+    /* Kits de Serviços */
+    .kits {
+        width: 100%;
+    }
+    
+    .kits>h2 {
+        margin-bottom: 32px;
+    }
+    
+    .kit-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+    }
+    
+    .kit-card {
+        background-color: var(--color5);
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 380px;
+        height: auto;
+        padding: 24px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+    
+    .kit-card>p {
+        color: var(--color2);
+        letter-spacing: 0;
+        text-align: start;
+        text-indent: 0px;
+    }
+    
+    .kit-card>h3 {
+        text-indent: 32px;
+        margin-bottom: 16px;
+    }
+    
+    .kitcard-title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .kit-card>div {
+        height: 72px;
+        width: 72px;
+        margin: 0px 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+    }
+    
+    .kit-img1 {
+        background-image: url(../img/servicos/11-bathroom.png);
+    }
+    
+    .kit-img2 {
+        background-image: url(../img/servicos/12-bedroom.png);
+    }
+    
+    .kit-img3 {
+        background-image: url(../img/servicos/13-livingroom.png);
+    }
+    
+    .kit-img4 {
+        background-image: url(../img/servicos/14-kitchen.png);
+    }
+    
+    .kit-img5 {
+        background-image: url(../img/servicos/15-laundry.png);
+    }
+    
+    .kit-img6 {
+        background-image: url(../img/servicos/16-backyard.png);
+    }
+
 }
