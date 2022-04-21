@@ -136,6 +136,18 @@
     .gm-ui-hover-effect {
         display: none;
     } */
+
+    .area {
+        width: 800px;
+    }
+
+    .area > img {
+        width: 100%;
+    }
+
+    .area > h2 {
+        margin-bottom: 32px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -274,6 +286,18 @@
     .gm-ui-hover-effect {
         display: none;
     } */
+
+    .area {
+        width: 100%;
+    }
+
+    .area > img {
+        width: 100%;
+    }
+
+    .area > h2 {
+        margin-bottom: 32px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -414,4 +438,15 @@
         display: none;
     } */
 
+    .area {
+        width: 100%;
+    }
+
+    .area > img {
+        width: 100%;
+    }
+
+    .area > h2 {
+        margin-bottom: 32px;
+    }
 }
