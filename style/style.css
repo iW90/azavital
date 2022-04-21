@@ -215,6 +215,10 @@ hr {
         font-size: 1rem;
     }
 
+    .parceiros > p {
+        margin-bottom: 4px;
+    }
+
     .creditos, .parceiros {
         font-size: 0.8rem;
     }
