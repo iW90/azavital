@@ -107,6 +107,10 @@ p {
         align-items: center;
 	}
 
+    section {
+        height: auto;
+    }
+
     p, ul {
         letter-spacing: 2px;
     }
