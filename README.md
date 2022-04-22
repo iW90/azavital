@@ -14,8 +14,8 @@ Este projeto se refere ao módulo de frontend do Bootcamp ConstruDelas 2022. Foi
 - Letícia Amaral de Lara
 - Raylane Araujo de Sousa
 - Thalia de Oliveira Santos
-- Larissa Monique de Sousa Rodrigues
 - Ester Marian Veloso Souza da Silva
+- Larissa Monique de Sousa Rodrigues
 
 ## Empresa
 
