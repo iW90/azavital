@@ -73,6 +73,28 @@ hr {
     margin-top: 96px;
 }
 
+h2 {
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-indent: 36px;
+}
+
+h3 {
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+p {
+    color: var(--color6);
+    font-family: var(--font1);
+    font-size: 1.4rem;
+    text-indent: 36px;
+}
+
 @media (min-width: 1024px) {
 
     main {
@@ -87,35 +109,8 @@ hr {
         padding: 0px 48px 64px 48px;
     }
 
-    h2 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.8rem;
-        font-weight: bold;
-        text-indent: 36px;
-    }
-
-    h3 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-
     p {
-        color: var(--color6);
-        font-family: var(--font1);
-        font-size: 1.4rem;
         letter-spacing: 2px;
-        text-indent: 36px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .creditos > p {
-        font-size: 1rem;
     }
 
     /* Menu */
@@ -223,6 +218,10 @@ hr {
         font-size: 0.8rem;
     }
 
+    .creditos > p {
+        font-size: 1rem;
+    }
+
     .indent {
         text-indent: 24px;
     }
@@ -242,35 +241,8 @@ hr {
         padding: 0px 24px 64px 24px;
     }
 
-    h2 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.8rem;
-        font-weight: bold;
-        text-indent: 36px;
-    }
-
-    h3 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-
     p {
-        color: var(--color6);
-        font-family: var(--font1);
-        font-size: 1.4rem;
         letter-spacing: 2px;
-        text-indent: 36px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .creditos > p {
-        font-size: 1rem;
     }
 
     /* Menu */
@@ -365,6 +337,10 @@ hr {
         font-size: 0.8rem;
     }
 
+    .creditos > p {
+        font-size: 1rem;
+    }
+
     .indent {
         text-indent: 24px;
     }
@@ -377,30 +353,7 @@ hr {
     }
 
     h2 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.8rem;
-        font-weight: bold;
         margin-bottom: 24px;
-        text-indent: 36px;
-    }
-
-    h3 {
-        color: var(--color3);
-        font-family: var(--font1);
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-
-    p {
-        color: var(--color6);
-        font-family: var(--font1);
-        font-size: 1.4rem;
-        text-indent: 36px;
-    }
-
-    .creditos > p {
-        font-size: 1rem;
     }
 
     /* Menu */
