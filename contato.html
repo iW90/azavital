@@ -61,19 +61,19 @@
             <p>Ou, caso prefira e tenha alguma dúvida, você pode nos enviar uma mensagem:
             </p>
             
-            <form class="form" action="" method="POST">
+            <form class="form" action="https://formspree.io/f/mwkywear" method="POST">
                 <div class="row">
-                    <input class="input" type="text" name="nome" placeholder="Nome">
+                    <input class="input" type="text" name="nome" placeholder="Nome" required>
                 </div>
                 <div class="row">
-                    <input class="input" type="email" name="email" placeholder="E-mail">
+                    <input class="input" type="email" name="email" placeholder="E-mail"> required
                 </div>
                 <div class="row">
                     <input class="input" type="text" name="assunto" 
-                placeholder="Assunto">
+                placeholder="Assunto" required>
                 </div>
                 <div class="row">
-                    <textarea  class="textarea" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <textarea  class="textarea" name="mensagem" id="msg" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                 </div>
                 <div>
                     <input class="btn" type="submit" name="enviar" value="Enviar">
@@ -114,6 +114,11 @@
             </div>
         </section>
 
+        <section class="area">
+            <h2>Área de Atuação</h2>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1qRmRk_pPIjxaYUNRnZAkJvMkBmHSFGcL&ehbc=2E312F" title="AzA Vital Studio vídeo" frameborder="0" width="100%" height="400"></iframe>
+        </section>
+
         <!--          AINDA NÃO HÁ ENDEREÇO FÍSICO
         <section id="gmap">
             <h2>Localização</h2>
@@ -123,13 +128,6 @@
         <script src="http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54" defer></script>
         <script src="./scripts/map.js" defer></script>
         -->
-
-        <section class="area">
-            <h2>Área de Atuação</h2>
-            <iframe src="https://www.google.com/maps/d/embed?mid=1qRmRk_pPIjxaYUNRnZAkJvMkBmHSFGcL&ehbc=2E312F" title="AzA Vital Studio vídeo" frameborder="0" width="100%" height="400"></iframe>
-        </section>
-
-
     </main>
 
     <footer>
