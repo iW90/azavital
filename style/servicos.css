@@ -167,19 +167,18 @@
 @media (min-width: 768px) {
 
     /* Passo a Passo */
+    .afterbefore p {
+        text-indent: 0;
+        margin: 36px 0px 16px 0px;
+        font-size: 1.2rem;
+    }
+    
     .passos-container {
         margin: 32px 0px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 16px;
-    }
-
-    /* Sonhos Realizados */
-    .afterbefore p {
-        text-indent: 0;
-        margin: 36px 0px 16px 0px;
-        font-size: 1.2rem;
     }
     
     .passos-card {
