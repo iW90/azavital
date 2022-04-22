@@ -18,6 +18,8 @@
     box-shadow: 0px 0px 4px rgba(241, 90, 37, 0.3);
     font-size: 1.8rem;
     text-indent: 16px;
+
+    flex-grow: 1;
 }
 
 .passos-card > p {
@@ -86,6 +88,82 @@
     pointer-events: none;
 }
 
+    /* Kits de Serviços */
+    .kits > h2 {
+        margin-bottom: 32px;
+    }
+
+    .kit-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px 8px;
+    }
+
+    .kit-card {
+        background-color: var(--color5);
+        border-radius: 16px;
+        box-sizing: border-box;
+        height: auto;
+        padding: 24px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        font-size: 1.8rem;
+        text-indent: 16px;
+    }
+
+    .kit-card > p {
+        color: var(--color2);
+        letter-spacing: 0;
+        text-align: justify;
+        text-indent: 0px;
+    }
+
+    .kit-card > h3 {
+        text-indent: 32px;
+        margin-bottom: 16px;
+    }
+
+    .kitcard-title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .kit-card > div {
+        height: 80px;
+        width: 80px;
+        margin: 0px 16px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+    }
+
+    .kit-img1 {
+        background-image: url(../img/servicos/11-bathroom.png);
+    }
+
+    .kit-img2 {
+        background-image: url(../img/servicos/12-bedroom.png);
+    }
+
+    .kit-img3 {
+        background-image: url(../img/servicos/13-livingroom.png);
+    }
+
+    .kit-img4 {
+        background-image: url(../img/servicos/14-kitchen.png);
+    }
+
+    .kit-img5 {
+        background-image: url(../img/servicos/15-laundry.png);
+    }
+
+    .kit-img6 {
+        background-image: url(../img/servicos/16-backyard.png);
+    }
+    
 @media (min-width: 768px) {
 
     /* Passo a Passo */
@@ -174,94 +252,6 @@
                 border: 3px solid var(--color5);
             }
 
-    /* Kits de Serviços */
-    .kits > h2 {
-        margin-bottom: 32px;
-    }
-
-    .kit-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 32px 8px;
-    }
-
-    .kit-card {
-        background-color: var(--color5);
-        border-radius: 16px;
-        box-sizing: border-box;
-        height: auto;
-        padding: 24px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        font-size: 1.8rem;
-        text-indent: 16px;
-    }
-
-    .kit-card {
-        background-color: var(--color5);
-        border-radius: 16px;
-        box-sizing: border-box;
-        width: 48%;
-        height: auto;
-        padding: 24px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        font-size: 1.8rem;
-        text-indent: 16px;
-    }
-
-    .kit-card > p {
-        color: var(--color2);
-        letter-spacing: 0;
-        text-align: justify;
-        text-indent: 0px;
-    }
-
-    .kit-card > h3 {
-        text-indent: 32px;
-        margin-bottom: 16px;
-    }
-
-    .kitcard-title {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-
-    .kit-card > div {
-        height: 80px;
-        width: 80px;
-        margin: 0px 16px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        float: left;
-    }
-
-    .kit-img1 {
-        background-image: url(../img/servicos/11-bathroom.png);
-    }
-
-    .kit-img2 {
-        background-image: url(../img/servicos/12-bedroom.png);
-    }
-
-    .kit-img3 {
-        background-image: url(../img/servicos/13-livingroom.png);
-    }
-
-    .kit-img4 {
-        background-image: url(../img/servicos/14-kitchen.png);
-    }
-
-    .kit-img5 {
-        background-image: url(../img/servicos/15-laundry.png);
-    }
-
-    .kit-img6 {
-        background-image: url(../img/servicos/16-backyard.png);
-    }
-
     @media (min-width: 1024px) {
         .passos-card {
             width: 28%;
@@ -274,7 +264,7 @@
 
     @media (min-width: 768px) and (max-width: 1023px) {
         .passos-card {
-            width: 40%;
+            width: 28%;
         }
 
         /* Kits de Serviços */
