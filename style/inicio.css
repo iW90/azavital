@@ -73,6 +73,8 @@ h1 {
 
 .serv-card {
     width: 120px;
+    background-color: var(--color5);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .func-card > p, .serv-card > p {
