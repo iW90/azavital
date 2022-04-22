@@ -78,6 +78,10 @@ h3 {
     text-indent: 36px;
 }
 
+.parcerias-e-apoios > p {
+    margin: 32px 0px;
+}
+
 .parcerias, .apoiadores {
     display: flex;
     justify-content: space-around;
@@ -106,10 +110,6 @@ h3 {
         margin: 0 16px;
     }
 
-    .parcerias-e-apoios > p {
-        margin: 32px 0px;
-    }
-
     .parcerias div img, .apoiadores div img {
         width: auto;
         height: 100%;
@@ -121,10 +121,6 @@ h3 {
         width: 64px;
         height: 64px;
         margin: 0 4px;
-    }
-
-    .parcerias-e-apoios > p {
-        margin: 16px 0px;
     }
 
     .content {
