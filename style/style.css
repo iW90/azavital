@@ -61,6 +61,7 @@ a {
 
 section {
     padding-top: 64px;
+    text-align: justify;
 }
 
 hr {
@@ -105,10 +106,6 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-	}
-
-    section {
-        height: auto;
     }
 
     p, ul {
