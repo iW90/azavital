@@ -201,6 +201,10 @@ p {
             padding: 0px 48px 64px 48px;
         }
 
+        section {
+            width: 800px;
+        }
+
         /* Menu */
         nav {
             padding: 0px 40px;
@@ -219,6 +223,10 @@ p {
     @media (min-width: 768px) and (max-width: 1023px) {
         main {
             padding: 0px 24px 64px 24px;
+        }
+
+        section {
+            width: 100%;
         }
 
         /* Menu */
