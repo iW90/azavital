@@ -50,7 +50,7 @@ h1 {
     height: auto;
 }
 
-.func-cards {
+.func-cards, .serv-cards {
     width: 100%;
     margin: 32px 0px;
     display: flex;
@@ -59,7 +59,7 @@ h1 {
     gap: 16px
 }
 
-.func-card {
+.func-card, .serv-card {
     height: auto;
     padding: 16px;
     border-radius: 5px;
@@ -71,12 +71,18 @@ h1 {
     flex-grow: 1;
 }
 
-.func-card > p {
+.serv-card {
+    width: 120px;
+    background-color: var(--color5);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.func-card > p, .serv-card > p {
     text-align: center;
     text-indent: 0;
 }
 
-.func-card > div {
+.func-card > div, .serv-card > div {
     height: 120px;
     margin: 16px 24px 24px 24px;
     background-size: contain;
@@ -107,6 +113,22 @@ h1 {
 
 .func-img6 {
     background-image: url(../img/funcionamento/06-entrega.png);
+}
+
+.serv-img1 {
+    background-image: url(../img/funcionamento/11-gestao.png);
+}
+
+.serv-img2 {
+    background-image: url(../img/funcionamento/12-especializada.png);
+}
+
+.serv-img3 {
+    background-image: url(../img/funcionamento/13-qualidade.png);
+}
+
+.serv-img4 {
+    background-image: url(../img/funcionamento/14-trintavezes.png);
 }
 
 @media (min-width: 768px) {
