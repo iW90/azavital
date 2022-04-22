@@ -11,11 +11,11 @@ Este projeto se refere ao módulo de frontend do Bootcamp ConstruDelas 2022. Foi
 **Mentor:** Nilton Frederico Teixeira
 
 - Ingrid Wagner
-- Ester Marian Veloso Souza da Silva
-- Larissa Monique de Sousa Rodrigues 
 - Letícia Amaral de Lara
-- Raylane Araujo de Sousa
 - Thalia de Oliveira Santos
+- Raylane Araujo de Sousa
+- Ester Marian Veloso Souza da Silva
+- Larissa Monique de Sousa Rodrigues
 
 ## Empresa
 

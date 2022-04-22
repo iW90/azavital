@@ -106,11 +106,8 @@ h3 {
         margin: 0 16px;
     }
 
-    .parcerias-e-apoios {
+    .parcerias-e-apoios > p {
         margin: 32px 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
     }
 
     .parcerias div img, .apoiadores div img {
@@ -126,11 +123,8 @@ h3 {
         margin: 0 4px;
     }
 
-    .parcerias-e-apoios {
-        margin: 4px 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
+    .parcerias-e-apoios > p {
+        margin: 16px 0px;
     }
 
     .content {
