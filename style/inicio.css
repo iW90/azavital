@@ -98,10 +98,14 @@ h1 {
 }
 
 .func-img4 {
-    background-image: url(../img/funcionamento/1207273.png);
+    background-image: url(../img/funcionamento/855310.png);
 }
 
 .func-img5 {
+    background-image: url(../img/funcionamento/1207273.png);
+}
+
+.func-img6 {
     background-image: url(../img/funcionamento/4896425.png);
 }
 
@@ -128,7 +132,7 @@ h1 {
         background: rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
         height: auto;
-        border-radius: 25px;
+        border-radius: 24px;
         margin: 0 8%;
         padding: 4%;
         box-shadow: 0px 2px 4px 2px hsla(0, 0%, 0%, 0.4);
@@ -247,7 +251,7 @@ h1 {
         background: rgba(0, 0, 0, 0.6);
         box-sizing: border-box;
         height: 100%;
-        padding: 20px;
+        padding: 24px;
     }
 
     .divider {
