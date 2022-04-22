@@ -124,11 +124,11 @@ h3 {
     }
 
     .content {
-        width: 100%;
+        height: 72px;
     }
 
     .parcerias div img, .apoiadores div img {
-        width: auto;
+        width: 100%;
     }
 
     /* Localização */
