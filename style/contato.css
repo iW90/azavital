@@ -74,22 +74,24 @@
 }
 
 /* Parceiros */
-h3 {
-    text-indent: 36px;
-}
-
-.parcerias-e-apoios > p {
+.parcerias-e-apoios > h2, .parcerias-e-apoios p {
     margin: 32px 0px;
 }
 
 .parcerias, .apoiadores {
+    height: auto;
+    
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
 }
 
 .content {
-    height: 160px;
+    height: 120px;
+}
+
+.content > a > img {
+    max-height: 104px;
 }
 
 /* Área de Atuação */
